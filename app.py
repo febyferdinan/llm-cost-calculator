@@ -21,7 +21,7 @@ def main():
     # code: lollipop, mechanical arm, paw prints, hot beverage, flying saucer, rocket
     # st.markdown('<h5 style="color: gray;">\N{smiling face with sunglasses} ffs.ai 2023</h5>', unsafe_allow_html=True)
     # st.markdown('<h5 style="color: gray;">\N{mechanical arm} ffs.ai 2023</h5>', unsafe_allow_html=True)
-    st.markdown('<h5 style="color: gray;">\N{rocket} ffs.ai 2024</h5>', unsafe_allow_html=True)
+    st.markdown('<h5 style="color: gray;">\N{rocket} ffs.ai</h5>', unsafe_allow_html=True)
 
     prompt_text = st.text_area("Enter Your Sample Prompt", height=300)
 
