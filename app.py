@@ -23,7 +23,7 @@ def main():
     # st.markdown('<h5 style="color: gray;">\N{mechanical arm} ffs.ai 2023</h5>', unsafe_allow_html=True)
     st.markdown('<h5 style="color: gray;">\N{rocket} ffs.ai 2024</h5>', unsafe_allow_html=True)
 
-    prompt_text = st.text_area("Prompt Text", height=300)
+    prompt_text = st.text_area("Enter Your Sample Prompt", height=300)
 
     if len(prompt_text) > 0:
         col1, col2, col3 = st.columns([1,1,1])
